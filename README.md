@@ -2,9 +2,9 @@
 Made as a Happy Birthday gift to my Mom!
 
 # Demo
-A live demo can be found here [website]
+A live demo can be found [here]
 
 
 
 
-[website]: https://harshhh-dev.github.io/birthday-celebration/
+[here]: https://harshhh-dev.github.io/birthday-celebration/
