@@ -20,4 +20,5 @@ With the name of the person you would like to wish Happy Birthday to :)
 # Credits
 
 Background music used - https://www.youtube.com/watch?v=th9lVrqIU9U
+
 Particles library used - https://www.npmjs.com/package/canvas-confetti
