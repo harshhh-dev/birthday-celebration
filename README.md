@@ -5,7 +5,10 @@ Made as a Happy Birthday gift to my Mom!
 A live demo can be found [here]
 
 # How to use
-Feel free to use this when your loved ones have their birthdays. To add their name, simply go to the [index.html file], and replace 
+Feel free to use this when your loved ones have their birthdays. 
+
+Clone this repo. (`git clone url`)
+To add their name, simply go to the [index.html file], and replace 
 
 ```html
       <h1 class="title">Happy Birthday! <!--insert the name of person you want to wish here --></h1>
