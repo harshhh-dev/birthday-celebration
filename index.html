@@ -2,14 +2,19 @@
 <html>
    <head>
       <title>Happy Birthday!</title>
-
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
       <link rel="stylesheet" href="./public/styling/stylesheet.css">
       <link rel="shortcut icon" type="image/png" href="./images/Ballon.png">
+      <script> 
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString);
+      var name = urlParams.get('name')
+      document.getElementById('output').innerHTML = name;  
+      </script>
    </head>
 
    <body>
-      <h1 class="title">Happy Birthday Mom! <!--insert the name of person you want to wish here --></h1>
+      <h1 class="title">Happy Birthday</h1> <h1 id="output"></h1>
 
       <button onmousedown="loadAudio()" class="button">Start The Song!</button>
    </body>
