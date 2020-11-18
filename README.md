@@ -5,17 +5,15 @@ Made as a Happy Birthday gift to my Mom!
 A live demo can be found [here]
 
 # How to use
-Feel free to use this when your loved ones have their birthdays. 
+Feel free to use this when your loved ones or friends have their birthdays. 
 
-Clone this repo. (`git clone url`)
-To add their name, simply go to the [index.html file], and replace 
+In the URL, add a "?" followed by a name, to give it a custom name.
 
-```html
-      <h1 class="title">Happy Birthday! <!--insert the name of person you want to wish here --></h1>
-```
+Example: 
 
-With the name of the person you would like to wish Happy Birthday to :)
+```http://harsh.thedev.id/birthday-celebration?name=namehere```
 
+If you're cloning this repo, crediting is optional but this did not take a non-trivial amount of time to make, so please don't claim this effort as your own :heart: :smile:
 
 [here]: https://harshhh-dev.github.io/birthday-celebration/
 [index.html file]: https://github.com/harshhh-dev/birthday-celebration/blob/master/index.html#L12
