@@ -29,7 +29,7 @@
       const urlParams = new URLSearchParams(queryString);
       var name = urlParams.get('name')
       console.log(name);
-      document.getElementById('title').innerHTML = "Happy Birthday " + name + "!";  
+      document.getElementById('title').innerHTML = `Happy Birthday, ${name}!`;  
       if(name == "null")
       {
          document.getElementById('title').innerHTML = "Happy Birthday to You!";  
