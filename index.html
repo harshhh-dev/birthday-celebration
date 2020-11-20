@@ -2,16 +2,14 @@
 <html>
    <head>
       <title>Happy Birthday!</title>
-
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
       <link rel="stylesheet" href="./public/styling/stylesheet.css">
-      <link rel="shortcut icon" type="image/png" href="./images/Ballon.png">
+      <link rel="shortcut icon" type="image/png" href="./images/Ballon.png">   
    </head>
 
    <body>
-      <h1 class="title">Happy Birthday Mom! <!--insert the name of person you want to wish here --></h1>
-
-      <button onmousedown="loadAudio()" class="button">Start The Song!</button>
+      <h1 class="title" id = "title">Happy Birthday</h1> 
+      <button onmousedown="loadAudio()" class="button">Play The Song!</button>
    </body>
 
    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.2.0/dist/confetti.browser.min.js"></script>
@@ -26,4 +24,16 @@
          happyBirthdaySong.play()
       }
    </script>
+   <script> 
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString);
+      var name = urlParams.get('name')
+      console.log(name);
+      document.getElementById('title').innerHTML = `Happy Birthday, ${name}!`;  
+      if(name == "null")
+      {
+         document.getElementById('title').innerHTML = "Happy Birthday to You!";  
+      }
+    
+      </script>
 </html>
