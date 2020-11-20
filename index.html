@@ -8,7 +8,7 @@
    </head>
 
    <body>
-      <h1 class="title">Happy Birthday</h1> <h1 id="output"></h1>
+      <h1 class="title" id = "title">Happy Birthday</h1> 
       <button onmousedown="loadAudio()" class="button">Play The Song!</button>
    </body>
 
@@ -29,10 +29,10 @@
       const urlParams = new URLSearchParams(queryString);
       var name = urlParams.get('name')
       console.log(name);
-      document.getElementById('output').innerHTML = name + "!";  
+      document.getElementById('title').innerHTML = "Happy Birthday " + name + "!";  
       if(name == "null")
       {
-         document.getElementById('output').innerHTML = "to You!";  
+         document.getElementById('title').innerHTML = "Happy Birthday to You!";  
       }
     
       </script>
